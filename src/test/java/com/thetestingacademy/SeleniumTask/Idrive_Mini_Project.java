@@ -81,6 +81,7 @@ public class Idrive_Mini_Project {
 
        // Verify the label using an assertion
         Assert.assertEquals(upgrade_btn.getText(),"Upgrade Now!");
+        System.out.println(upgrade_btn.getText());
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
